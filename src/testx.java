@@ -11,7 +11,7 @@ public class testx {
 	
 	public static void Stock(String ticker) throws Exception {
 		String base = "https://marketdata.websol.barchart.com/getQuote.json?";
-		String key = "apikey=6d556ee05fb060f2e2d66f4609d9a4a8&symbols=";
+		String key = "apikey=xxxxxxxxxxxxxxxxxsymbols=";
 		String url = base + key + ticker;
 		
 		URL x = new URL(url);
