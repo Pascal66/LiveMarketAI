@@ -110,7 +110,7 @@ public class MainX {
 	
 	
 	// This method will parse your crypto currency API
-	
+	// "BTC_LTC":{"id":50,"last":"0.01642197","lowestAsk":"0.01643987","highestBid":"0.01642198","percentChange":"-0.00472909","baseVolume":"1788.34098232","quoteVolume":"107338.80048768","isFrozen":"0","high24hr":"0.01697000","low24hr":"0.01637113"}
 	public static double[] ParseCrypto(String data){
 		
 		double[] result = new double[3];
@@ -137,7 +137,6 @@ public class MainX {
 	}
 	
 	// This API will fetch your data on ETF's, Investment Banks, and several popular crypto currencies
-	
 	public static String WebData(String tick, int k) throws Exception{
 		
 		String x = "";
